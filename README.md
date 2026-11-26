@@ -153,17 +153,25 @@ Potential business impacts include:
 
 ## 11. Evidence
 
-Supporting screenshots and technical evidence are organized in the repository's `Evidence/` directory.
+Supporting screenshots and technical evidence are available in the [`Evidence/`](Evidence/) directory.
 
-Planned evidence categories:
+The evidence includes:
 
-- `Reconnaissance/`
-- `SQL-Injection/`
-- `PDF-Password-Recovery/`
-- `Database-Exposure/`
-- `Final-Assessment/`
+| No. | Evidence | Description |
+|---:|---|---|
+| 01 | Directory Enumeration | Web directory discovery |
+| 02 | PDF Hash Extraction | PDF password hash extraction |
+| 03 | Homepage HTML Analysis | Inspection of homepage source code |
+| 04 | Public Page Accessibility | Verification of publicly accessible pages |
+| 05 | PDF Password Recovery | Password recovery testing |
+| 06 | PDF Encryption Analysis | Examination of PDF encryption |
+| 07 | Network and HTTP Analysis | Network connectivity and HTTP responses |
+| 08 | Shareholder Data Exposure | Evidence relating to exposed shareholder information |
+| 09 | WhatWeb Technology Scan | Web technology identification |
 
-Screenshots are intended to demonstrate the testing process, observations, and findings.
+All screenshots are provided for technical documentation and verification.
+
+**Data protection:** Confidential patient, employee, shareholder, and authentication information must be redacted before public sharing.
 
 ## 12. Data Protection
 
